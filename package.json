@@ -1,0 +1,17 @@
+{
+  "name": "smartbuildai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "backend": "python -m uvicorn main:app --host 127.0.0.1 --port 8000 --app-dir Backend",
+    "frontend": "npm --prefix Frontend run dev",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^..."
+  }
+}

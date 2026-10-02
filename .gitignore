@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Node
+node_modules/
+Frontend/node_modules/
+
+# Environment variables
+.env
+.env.*
+
+# Build files
+Frontend/dist/
+Frontend/build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Python generated files
+*.pkl
+*.joblib
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Large/generated data
+*.sqlite
+*.db
